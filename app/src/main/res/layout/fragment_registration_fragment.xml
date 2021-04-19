@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Registration_owner_fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textColor="@color/Signup"
+            android:textSize="45sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="50sp"/>
+
+        <EditText
+            android:id="@+id/edittextemail"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50sp"
+            android:background="@drawable/edit_text_design"
+            android:hint="&#160;&#160;&#160;&#160;&#160;&#160;Email"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/phonetextedit"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/edit_text_design"
+            android:hint="&#160;&#160;&#160;&#160;&#160;&#160;Mobile No."
+            android:inputType="phone"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:background="@drawable/edit_text_design"
+            android:hint="&#160;&#160;&#160;&#160;&#160;&#160;Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/loginhome"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_main"
+            android:text="Sign Up"
+            android:layout_marginTop="35sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:theme="@style/Mytheme"/>
+
+        <TextView
+            android:id="@+id/togologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have An Account?"
+            android:textColor="@color/Signup"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+    </LinearLayout>
+</FrameLayout>
